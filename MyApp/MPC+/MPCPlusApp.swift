@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct MyAppApp: App {
+struct MCPPlusApp: App {
 
     let container: ModelContainer = {
         let schema = Schema([Vendor.self])

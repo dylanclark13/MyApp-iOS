@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6AB9E93E2F0440DE007D7E06 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB9E94D2F0440E0007D7E06 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB9E9572F0440E0007D7E06 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB9E93E2F0440DE007D7E06 /* MCP+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCP+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB9E94D2F0440E0007D7E06 /* MCP+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCP+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB9E9572F0440E0007D7E06 /* MCP+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCP+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6AB9E9402F0440DE007D7E06 /* MyApp */ = {
+		6AB9E9402F0440DE007D7E06 /* MPC+ */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyApp;
+			path = "MPC+";
 			sourceTree = "<group>";
 		};
 		6AB9E9502F0440E0007D7E06 /* MyAppTests */ = {
@@ -75,7 +75,7 @@
 		6AB9E9352F0440DE007D7E06 = {
 			isa = PBXGroup;
 			children = (
-				6AB9E9402F0440DE007D7E06 /* MyApp */,
+				6AB9E9402F0440DE007D7E06 /* MPC+ */,
 				6AB9E9502F0440E0007D7E06 /* MyAppTests */,
 				6AB9E95A2F0440E0007D7E06 /* MyAppUITests */,
 				6AB9E93F2F0440DE007D7E06 /* Products */,
@@ -85,9 +85,9 @@
 		6AB9E93F2F0440DE007D7E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AB9E93E2F0440DE007D7E06 /* MyApp.app */,
-				6AB9E94D2F0440E0007D7E06 /* MyAppTests.xctest */,
-				6AB9E9572F0440E0007D7E06 /* MyAppUITests.xctest */,
+				6AB9E93E2F0440DE007D7E06 /* MCP+.app */,
+				6AB9E94D2F0440E0007D7E06 /* MCP+Tests.xctest */,
+				6AB9E9572F0440E0007D7E06 /* MCP+UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6AB9E93D2F0440DE007D7E06 /* MyApp */ = {
+		6AB9E93D2F0440DE007D7E06 /* MCP+ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB9E9612F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 6AB9E9612F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+" */;
 			buildPhases = (
 				6AB9E93A2F0440DE007D7E06 /* Sources */,
 				6AB9E93B2F0440DE007D7E06 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6AB9E9402F0440DE007D7E06 /* MyApp */,
+				6AB9E9402F0440DE007D7E06 /* MPC+ */,
 			);
-			name = MyApp;
+			name = "MCP+";
 			packageProductDependencies = (
 			);
 			productName = MyApp;
-			productReference = 6AB9E93E2F0440DE007D7E06 /* MyApp.app */;
+			productReference = 6AB9E93E2F0440DE007D7E06 /* MCP+.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6AB9E94C2F0440E0007D7E06 /* MyAppTests */ = {
+		6AB9E94C2F0440E0007D7E06 /* MCP+Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB9E9642F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyAppTests" */;
+			buildConfigurationList = 6AB9E9642F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+Tests" */;
 			buildPhases = (
 				6AB9E9492F0440E0007D7E06 /* Sources */,
 				6AB9E94A2F0440E0007D7E06 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				6AB9E9502F0440E0007D7E06 /* MyAppTests */,
 			);
-			name = MyAppTests;
+			name = "MCP+Tests";
 			packageProductDependencies = (
 			);
 			productName = MyAppTests;
-			productReference = 6AB9E94D2F0440E0007D7E06 /* MyAppTests.xctest */;
+			productReference = 6AB9E94D2F0440E0007D7E06 /* MCP+Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6AB9E9562F0440E0007D7E06 /* MyAppUITests */ = {
+		6AB9E9562F0440E0007D7E06 /* MCP+UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB9E9672F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyAppUITests" */;
+			buildConfigurationList = 6AB9E9672F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+UITests" */;
 			buildPhases = (
 				6AB9E9532F0440E0007D7E06 /* Sources */,
 				6AB9E9542F0440E0007D7E06 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				6AB9E95A2F0440E0007D7E06 /* MyAppUITests */,
 			);
-			name = MyAppUITests;
+			name = "MCP+UITests";
 			packageProductDependencies = (
 			);
 			productName = MyAppUITests;
-			productReference = 6AB9E9572F0440E0007D7E06 /* MyAppUITests.xctest */;
+			productReference = 6AB9E9572F0440E0007D7E06 /* MCP+UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6AB9E9392F0440DE007D7E06 /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 6AB9E9392F0440DE007D7E06 /* Build configuration list for PBXProject "MCP+" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6AB9E93D2F0440DE007D7E06 /* MyApp */,
-				6AB9E94C2F0440E0007D7E06 /* MyAppTests */,
-				6AB9E9562F0440E0007D7E06 /* MyAppUITests */,
+				6AB9E93D2F0440DE007D7E06 /* MCP+ */,
+				6AB9E94C2F0440E0007D7E06 /* MCP+Tests */,
+				6AB9E9562F0440E0007D7E06 /* MCP+UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		6AB9E94F2F0440E0007D7E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6AB9E93D2F0440DE007D7E06 /* MyApp */;
+			target = 6AB9E93D2F0440DE007D7E06 /* MCP+ */;
 			targetProxy = 6AB9E94E2F0440E0007D7E06 /* PBXContainerItemProxy */;
 		};
 		6AB9E9592F0440E0007D7E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6AB9E93D2F0440DE007D7E06 /* MyApp */;
+			target = 6AB9E93D2F0440DE007D7E06 /* MCP+ */;
 			targetProxy = 6AB9E9582F0440E0007D7E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dylanclark.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanclark.mpcplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dylanclark.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanclark.mpcplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -469,7 +469,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCP+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MCP+";
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCP+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MCP+";
 			};
 			name = Release;
 		};
@@ -535,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AB9E9392F0440DE007D7E06 /* Build configuration list for PBXProject "MyApp" */ = {
+		6AB9E9392F0440DE007D7E06 /* Build configuration list for PBXProject "MCP+" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AB9E95F2F0440E0007D7E06 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AB9E9612F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		6AB9E9612F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AB9E9622F0440E0007D7E06 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AB9E9642F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
+		6AB9E9642F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AB9E9652F0440E0007D7E06 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AB9E9672F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
+		6AB9E9672F0440E0007D7E06 /* Build configuration list for PBXNativeTarget "MCP+UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AB9E9682F0440E0007D7E06 /* Debug */,

@@ -22,8 +22,7 @@ struct VendorMapView: View {
     @State private var selectedVendor: Vendor?
 
     var body: some View {
-        Text("Vendor count: \(vendors.count)")
-        Map(position: $cameraPosition, selection: $selectedVendor) {
+                Map(position: $cameraPosition, selection: $selectedVendor) {
             ForEach(vendors) { vendor in
                 Annotation(
                     vendor.name,
