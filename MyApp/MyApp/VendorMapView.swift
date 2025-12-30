@@ -18,10 +18,11 @@ struct VendorMapView: View {
             span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
         )
     )
-
+    
     @State private var selectedVendor: Vendor?
 
     var body: some View {
+        Text("Vendor count: \(vendors.count)")
         Map(position: $cameraPosition, selection: $selectedVendor) {
             ForEach(vendors) { vendor in
                 Annotation(
