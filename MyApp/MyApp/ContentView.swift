@@ -152,7 +152,8 @@ struct VendorDetailView: View {
 
     private func openDirections() {
         let coordinate = CLLocationCoordinate2D(latitude: vendor.latitude, longitude: vendor.longitude)
-        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate))
+        let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
+        let mapItem = MKMapItem(location: location, address: nil)
         mapItem.name = vendor.name
         mapItem.openInMaps()
     }
