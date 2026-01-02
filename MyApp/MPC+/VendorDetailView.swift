@@ -1,10 +1,3 @@
-//
-//  VendorDetailView.swift
-//  MyApp
-//
-//  Created by Dylan Clark on 12/30/25.
-//
-
 import SwiftUI
 import SwiftData
 import MapKit
@@ -18,8 +11,7 @@ struct VendorDetailView: View {
         List {
             Section("Company") {
                 Text(vendor.name)
-                    .font(.headline)
-                Text(vendor.category)
+                Text(vendor.categories.joined(separator: ", "))
                     .foregroundStyle(.secondary)
             }
 
@@ -78,7 +70,6 @@ struct VendorDetailView: View {
             latitude: vendor.latitude,
             longitude: vendor.longitude
         )
-
         let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate))
         mapItem.name = vendor.name
         mapItem.openInMaps()

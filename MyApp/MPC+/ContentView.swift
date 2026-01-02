@@ -2,18 +2,28 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showingList = false
+    @State private var showingFilters = false
+    @State private var selectedCategories: Set<String> = []
 
     var body: some View {
         NavigationStack {
             Group {
                 if showingList {
-                    VendorListView()
+                    VendorListView(selectedCategories: selectedCategories)
                 } else {
-                    VendorMapView()
+                    VendorMapView(selectedCategories: selectedCategories)
                 }
             }
             .navigationTitle("MPC+")
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        showingFilters = true
+                    } label: {
+                        Image(systemName: "line.3.horizontal.decrease.circle")
+                    }
+                }
+
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         showingList.toggle()
@@ -23,9 +33,8 @@ struct ContentView: View {
                 }
             }
         }
+        .sheet(isPresented: $showingFilters) {
+            FilterView(selectedCategories: $selectedCategories)
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }

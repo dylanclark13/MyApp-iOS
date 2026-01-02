@@ -1,16 +1,17 @@
-//
-//  VendorMapView.swift
-//  MyApp
-//
-//  Created by Dylan Clark on 12/30/25.
-//
-
 import SwiftUI
 import MapKit
 import SwiftData
 
 struct VendorMapView: View {
     @Query private var vendors: [Vendor]
+    let selectedCategories: Set<String>
+
+    private var filteredVendors: [Vendor] {
+        guard selectedCategories.isEmpty == false else { return vendors }
+        return vendors.filter {
+            $0.categories.contains(where: selectedCategories.contains)
+        }
+    }
 
     @State private var cameraPosition = MapCameraPosition.region(
         MKCoordinateRegion(
@@ -18,12 +19,12 @@ struct VendorMapView: View {
             span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
         )
     )
-    
+
     @State private var selectedVendor: Vendor?
 
     var body: some View {
-                Map(position: $cameraPosition, selection: $selectedVendor) {
-            ForEach(vendors) { vendor in
+        Map(position: $cameraPosition, selection: $selectedVendor) {
+            ForEach(filteredVendors) { vendor in
                 Annotation(
                     vendor.name,
                     coordinate: CLLocationCoordinate2D(

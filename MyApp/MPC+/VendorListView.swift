@@ -1,46 +1,37 @@
 import SwiftUI
 import SwiftData
+
 struct VendorListView: View {
-@Environment(\.modelContext) private var modelContext
-@Query(sort: [SortDescriptor(\Vendor.name, order: .forward)]) private var vendors: [Vendor]
-@State private var searchText = ""
+    @Environment(\.modelContext) private var modelContext
+    @Query(sort: \Vendor.name) private var vendors: [Vendor]
 
-private var filtered: [Vendor] {
-    let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
-    if trimmed.isEmpty { return vendors }
-    let q = trimmed.lowercased()
-    return vendors.filter { vendor in
-        vendor.name.lowercased().contains(q) || vendor.address.lowercased().contains(q)
+    let selectedCategories: Set<String>
+
+    private var filtered: [Vendor] {
+        guard selectedCategories.isEmpty == false else { return vendors }
+        return vendors.filter {
+            $0.categories.contains(where: selectedCategories.contains)
+        }
     }
-}
 
-var body: some View {
-    List {
-        ForEach(filtered) { vendor in
-            NavigationLink {
-                VendorDetailView(vendor: vendor)
-            } label: {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(vendor.name)
-                        .font(.headline)
-                    Text(vendor.address)
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+    var body: some View {
+        List {
+            ForEach(filtered) { vendor in
+                NavigationLink {
+                    VendorDetailView(vendor: vendor)
+                } label: {
+                    VStack(alignment: .leading) {
+                        Text(vendor.name)
+                        Text(vendor.address)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+            }
+            .onDelete { offsets in
+                for index in offsets {
+                    modelContext.delete(filtered[index])
                 }
             }
         }
-        .onDelete(perform: delete)
     }
-    .navigationTitle("Vendors")
-    .searchable(text: $searchText)
-    .toolbar {
-        EditButton()
-    }
-}
-
-private func delete(at offsets: IndexSet) {
-    for index in offsets {
-        modelContext.delete(filtered[index])
-    }
-}
 }
