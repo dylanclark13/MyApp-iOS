@@ -226,6 +226,96 @@ extension Vendor {
             latitude: 40.742279,
             longitude: -73.979968,
             notes: nil
+        ),
+        Vendor(
+            name: "Pronto Gas Heating Supply Co",
+            address: "681 East 136th Street, Bronx, NY",
+            phone: "718-292-0707",
+            website: "prontosupplies.com",
+            latitude: 40.804007,
+            longitude: -73.914566,
+            notes: nil
+        ),
+        Vendor(
+            name: "Pronto Gas Heating Supply Co",
+            address: "181 Chrystie Street, New York, NY",
+            phone: "212-777-3366",
+            website: "prontosupplies.com",
+            latitude: 40.721586,
+            longitude: -73.992261,
+            notes: nil
+        ),
+        Vendor(
+            name: "Ranger Supply Co.",
+            address: "3137 Bailey Avenue, Bronx, NY",
+            phone: "718-543-6666",
+            website: "rangersupplycompany.com",
+            latitude: 40.879276,
+            longitude: -73.901628,
+            notes: nil
+        ),
+        Vendor(
+            name: "W.W. Grainger, Inc.",
+            address: "New York, NY",
+            phone: "212-629-5660",
+            website: "grainger.com",
+            latitude: 40.752726,
+            longitude: -73.977229,
+            notes: nil
+        ),
+        Vendor(
+            name: "Washington Plumbing Supply",
+            address: "4290 Third Avenue, Bronx, NY",
+            phone: "718-583-4400",
+            website: "",
+            latitude: 40.848690,
+            longitude: -73.894949,
+            notes: nil
+        ),
+        Vendor(
+            name: "Webster Plumbing Supply, Inc.",
+            address: "1758 Webster Avenue, Bronx, NY",
+            phone: "718-583-1600",
+            website: "websterplumbingsupply.com",
+            latitude: 40.845273,
+            longitude: -73.902083,
+            notes: nil
+        ),
+        Vendor(
+            name: "AMAF Supply",
+            address: "53-13 Van Dam Street, Long Island City, NY",
+            phone: "718-358-1100",
+            website: "amafsupplyinc.com",
+            latitude: 40.735145,
+            longitude: -73.937095,
+            notes: nil
+        ),
+        Vendor(
+            name: "AMAF Supply",
+            address: "210-23 Horace Harding Expressway, Queens, NY",
+            phone: "",
+            website: "amafsupplyinc.com",
+            latitude: 40.746584,
+            longitude: -73.766244,
+            notes: nil
+        ),
+        Vendor(
+            name: "Bayside Plumbing",
+            address: "211-20 Northern Blvd, Bayside, NY",
+            phone: "718-229-8330",
+            website: "",
+            latitude: 40.759718,
+            longitude: -73.771054,
+            notes: nil
+        ),
+        Vendor(
+            name: "C&L Plumbing Supply",
+            address: "196 Merrick Road, Valley Stream, NY",
+            phone: "516-561-6000",
+            website: "candlplumbingsupply.com",
+            latitude: 40.653737,
+            longitude: -73.557045,
+            notes: nil
         )
     ]
 }
