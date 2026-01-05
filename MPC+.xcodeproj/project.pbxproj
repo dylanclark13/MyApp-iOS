@@ -29,24 +29,9 @@
 		6A73382C2F0C18CC000BEDF4 /* MPC+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MPC+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6A7338622F0C1DB9000BEDF4 /* Exceptions for "MPC+" folder in "MPC+" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"MPC+Tests/MPC_Tests.swift",
-				"MPC+UITests/MPC_UITests.swift",
-				"MPC+UITests/MPC_UITestsLaunchTests.swift",
-			);
-			target = 6A7338122F0C18CA000BEDF4 /* MPC+ */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6A7338152F0C18CA000BEDF4 /* MPC+ */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6A7338622F0C1DB9000BEDF4 /* Exceptions for "MPC+" folder in "MPC+" target */,
-			);
 			path = "MPC+";
 			sourceTree = "<group>";
 		};
