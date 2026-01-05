@@ -2,9 +2,7 @@ import SwiftUI
 
 struct VendorListView: View {
 
-    // Temporary in memory source.
-    // This will later be replaced with persistence safely.
-    let vendors: [Vendor] = Vendor.sampleData
+    let vendors: [Vendor]
 
     var body: some View {
         List(vendors) { vendor in
