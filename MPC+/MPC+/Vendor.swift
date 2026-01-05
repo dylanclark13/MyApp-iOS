@@ -13,6 +13,12 @@ var latitude: Double
 var longitude: Double
 var createdAt: Date
 var updatedAt: Date
+var websiteWithScheme: String {
+        if website.hasPrefix("http://") || website.hasPrefix("https://") {
+            return website
+        }
+        return "https://" + website
+    }
 init(
     id: UUID = UUID(),
     name: String,
