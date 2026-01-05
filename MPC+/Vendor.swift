@@ -46,6 +46,51 @@ extension Vendor {
             latitude: 40.602942,
             longitude: -74.006945,
             notes: nil
+        ),
+        Vendor(
+            name: "AM/PM Supply",
+            address: "2293 Second Avenue, New York, NY",
+            phone: "718-381-2845",
+            website: "ampmsupply.com",
+            latitude: 40.803109,
+            longitude: -73.933908,
+            notes: nil
+        ),
+        Vendor(
+            name: "AM/PM Supply",
+            address: "59-23 55th Street, Queens, NY",
+            phone: "718-381-2845",
+            website: "ampmsupply.com",
+            latitude: 40.716732,
+            longitude: -73.913012,
+            notes: nil
+        ),
+        Vendor(
+            name: "Allied Sprinkler Corp.",
+            address: "118 West 18th Street, New York, NY",
+            phone: "212-675-8062",
+            website: "alliedsprinklerco.com",
+            latitude: 40.741021,
+            longitude: -73.995334,
+            notes: nil
+        ),
+        Vendor(
+            name: "Central Plumbing Specialties",
+            address: "3619 White Plains Road, Bronx, NY",
+            phone: "718-798-9799",
+            website: "centralplumbingspec.com",
+            latitude: 40.847431,
+            longitude: -73.868889,
+            notes: nil
+        ),
+        Vendor(
+            name: "Central Plumbing Specialties",
+            address: "1250 Park Avenue, New York, NY",
+            phone: "212-722-2975",
+            website: "centralplumbingspec.com",
+            latitude: 40.785091,
+            longitude: -73.952835,
+            notes: nil
         )
     ]
 }
