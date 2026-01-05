@@ -181,6 +181,51 @@ extension Vendor {
             latitude: 40.817883,
             longitude: -73.928705,
             notes: nil
+        ),
+        Vendor(
+            name: "Holby Valve, Inc.",
+            address: "24 Ferdon Street, Newark, NJ",
+            phone: "212-838-6363",
+            website: "holby.com",
+            latitude: 40.718832,
+            longitude: -74.155340,
+            notes: nil
+        ),
+        Vendor(
+            name: "Johnstone Supply",
+            address: "845 E 138th Street, Bronx, NY",
+            phone: "718-402-3707",
+            website: "johnstonesupply.com",
+            latitude: 40.803249,
+            longitude: -73.908853,
+            notes: nil
+        ),
+        Vendor(
+            name: "Mechanical Heating Supply Inc.",
+            address: "476 Timpson Place, Bronx, NY",
+            phone: "718-402-9765",
+            website: "mechheat.com",
+            latitude: 40.810199,
+            longitude: -73.905527,
+            notes: nil
+        ),
+        Vendor(
+            name: "New York Replacement Parts Corp",
+            address: "1462 Lexington Avenue, New York, NY",
+            phone: "914-965-0122",
+            website: "nyrpcorp.com",
+            latitude: 40.784989,
+            longitude: -73.951751,
+            notes: nil
+        ),
+        Vendor(
+            name: "Nuthouse Hardware",
+            address: "202 East 29th Street, New York, NY",
+            phone: "212-545-1447",
+            website: "nuthousehardware.com",
+            latitude: 40.742279,
+            longitude: -73.979968,
+            notes: nil
         )
     ]
 }
