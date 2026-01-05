@@ -316,6 +316,168 @@ extension Vendor {
             latitude: 40.653737,
             longitude: -73.557045,
             notes: nil
+        ),
+        Vendor(
+            name: "Christ Plumbing Supply",
+            address: "1310 Jericho Turnpike, New Hyde Park, NY",
+            phone: "516-328-0499",
+            website: "fore-kastsales.com",
+            latitude: 40.733010,
+            longitude: -73.682086,
+            notes: nil
+        ),
+        Vendor(
+            name: "DJ Plumbing",
+            address: "25-92 31st Street, Astoria, NY",
+            phone: "718-274-8600",
+            website: "djsplumbing.com",
+            latitude: 40.768526,
+            longitude: -73.920118,
+            notes: nil
+        ),
+        Vendor(
+            name: "Great Neck Plumbing",
+            address: "404 Northern Blvd, Great Neck, NY",
+            phone: "516-773-0111",
+            website: "greatneckplumbingsupply.com",
+            latitude: 40.787361,
+            longitude: -73.731893,
+            notes: nil
+        ),
+        Vendor(
+            name: "Green Art",
+            address: "65 South Columbus Ave, Freeport, NY",
+            phone: "516-379-0449",
+            website: "greenartplumbing.com",
+            latitude: 40.656383,
+            longitude: -73.578102,
+            notes: nil
+        ),
+        Vendor(
+            name: "Green Art",
+            address: "1576 County Road 39, Southampton, NY",
+            phone: "631-488-4210",
+            website: "greenartplumbing.com",
+            latitude: 40.894720,
+            longitude: -72.451081,
+            notes: nil
+        ),
+        Vendor(
+            name: "J&J Heating Supply",
+            address: "10 Roselle Street, Mineola, NY",
+            phone: "516-801-0212",
+            website: "",
+            latitude: 40.753832,
+            longitude: -73.637975,
+            notes: nil
+        ),
+        Vendor(
+            name: "LI Pipe Supply",
+            address: "586 Commercial Avenue, Garden City, NY",
+            phone: "516-222-8008",
+            website: "lipipe.com",
+            latitude: 40.728982,
+            longitude: -73.610619,
+            notes: nil
+        ),
+        Vendor(
+            name: "LI Pipe Supply",
+            address: "58-58 56th Street, Maspeth, NY",
+            phone: "718-456-7877",
+            website: "lipipe.com",
+            latitude: 40.718578,
+            longitude: -73.913280,
+            notes: nil
+        ),
+        Vendor(
+            name: "LI Pipe Supply",
+            address: "729 Hicks Street, Brooklyn, NY",
+            phone: "718-669-7600",
+            website: "lipipe.com",
+            latitude: 40.677719,
+            longitude: -74.004070,
+            notes: nil
+        ),
+        Vendor(
+            name: "M&M Heating Supply",
+            address: "213-09 Jamaica Avenue, Queens Village, NY",
+            phone: "718-341-3060",
+            website: "mmplumbingny.com",
+            latitude: 40.716388,
+            longitude: -73.744474,
+            notes: nil
+        ),
+        Vendor(
+            name: "Mayer Malbin",
+            address: "62-25 30th Avenue, Woodside, NY",
+            phone: "718-937-5100",
+            website: "mayermalbin.com",
+            latitude: 40.759906,
+            longitude: -73.900132,
+            notes: nil
+        ),
+        Vendor(
+            name: "Northeast Plumbing",
+            address: "393 Jericho Turnpike, Mineola, NY",
+            phone: "516-487-6868",
+            website: "",
+            latitude: 40.745102,
+            longitude: -73.652312,
+            notes: nil
+        ),
+        Vendor(
+            name: "Quentzel Plumbing",
+            address: "379 Throop Avenue, Brooklyn, NY",
+            phone: "718-455-6600",
+            website: "quentzel.com",
+            latitude: 40.690385,
+            longitude: -73.942276,
+            notes: nil
+        ),
+        Vendor(
+            name: "Viking Supply",
+            address: "56-75 49th Street, Maspeth, NY",
+            phone: "973-541-2320",
+            website: "supplynet.com",
+            latitude: 40.725411,
+            longitude: -73.919511,
+            notes: nil
+        ),
+        Vendor(
+            name: "Franks Plumbing Supply",
+            address: "Long Island, NY",
+            phone: "516-371-3100",
+            website: "frankplumbingsupply.com",
+            latitude: 40.709947,
+            longitude: -73.654901,
+            notes: nil
+        ),
+        Vendor(
+            name: "Total Plumbing Supply",
+            address: "Brooklyn, NY",
+            phone: "718-377-1900",
+            website: "totalplumbingsupply.com",
+            latitude: 40.678178,
+            longitude: -73.944158,
+            notes: nil
+        ),
+        Vendor(
+            name: "Plumbing Exchange",
+            address: "182 10th Street, Brooklyn, NY",
+            phone: "718-499-6700",
+            website: "tpeny.com",
+            latitude: 40.668042,
+            longitude: -73.990014,
+            notes: nil
+        ),
+        Vendor(
+            name: "Park Slope Plumbing Supply",
+            address: "601 5th Avenue, Brooklyn, NY",
+            phone: "732-673-1674",
+            website: "psps601.com",
+            latitude: 40.660204,
+            longitude: -73.989598,
+            notes: nil
         )
     ]
 }
