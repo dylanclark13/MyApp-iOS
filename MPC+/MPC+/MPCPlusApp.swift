@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 @main
-struct MyAppApp: App {
+struct MPCPlusApp: App {
 var sharedModelContainer: ModelContainer = {
 let schema = Schema([
 Vendor.self,

@@ -153,9 +153,18 @@ struct VendorDetailView: View {
     private func openDirections() {
         let coordinate = CLLocationCoordinate2D(latitude: vendor.latitude, longitude: vendor.longitude)
         let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
-        let mapItem = MKMapItem(location: location, address: nil)
-        mapItem.name = vendor.name
-        mapItem.openInMaps()
+
+        if #available(iOS 26.0, *) {
+            let mapItem = MKMapItem(location: location, address: nil)
+            mapItem.name = vendor.name
+            mapItem.openInMaps()
+        } else {
+            // Fallback on earlier versions: create an MKMapItem using MKPlacemark
+            let placemark = MKPlacemark(coordinate: coordinate)
+            let mapItem = MKMapItem(placemark: placemark)
+            mapItem.name = vendor.name
+            mapItem.openInMaps()
+        }
     }
 }
 
