@@ -91,6 +91,51 @@ extension Vendor {
             latitude: 40.785091,
             longitude: -73.952835,
             notes: nil
+        ),
+        Vendor(
+            name: "City Water Meter Repair Co. Inc",
+            address: "526 East 13th Street, New York, NY",
+            phone: "212-473-7296",
+            website: "citywatermeterrepair.com",
+            latitude: 40.729117,
+            longitude: -73.979659,
+            notes: nil
+        ),
+        Vendor(
+            name: "Coastal Supply Group",
+            address: "38-16 Skillman Avenue, Queens, NY",
+            phone: "718-942-3300",
+            website: "coastalsupplygroup.com",
+            latitude: 40.747370,
+            longitude: -73.926016,
+            notes: nil
+        ),
+        Vendor(
+            name: "Coastal Supply Group",
+            address: "135 New Dorp Lane, Staten Island, NY",
+            phone: "718-979-0011",
+            website: "coastalsupplygroup.com",
+            latitude: 40.556436,
+            longitude: -74.211471,
+            notes: nil
+        ),
+        Vendor(
+            name: "F.W. Webb Company",
+            address: "919 Southern Blvd, Bronx, NY",
+            phone: "718-378-1010",
+            website: "fwwebb.com",
+            latitude: 40.820145,
+            longitude: -73.892516,
+            notes: nil
+        ),
+        Vendor(
+            name: "F.W. Webb Company",
+            address: "13 West 24th Street, New York, NY",
+            phone: "212-255-1200",
+            website: "fwwebb.com",
+            latitude: 40.742826,
+            longitude: -73.990257,
+            notes: nil
         )
     ]
 }
