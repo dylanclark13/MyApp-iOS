@@ -136,6 +136,51 @@ extension Vendor {
             latitude: 40.742826,
             longitude: -73.990257,
             notes: nil
+        ),
+        Vendor(
+            name: "F.W. Webb Company",
+            address: "2350 12th Avenue, New York, NY",
+            phone: "646-428-3944",
+            website: "fwwebb.com",
+            latitude: 40.820482,
+            longitude: -73.958741,
+            notes: nil
+        ),
+        Vendor(
+            name: "General Plumbing Supply",
+            address: "1164 Castleton Avenue, Staten Island, NY",
+            phone: "718-885-8900",
+            website: "generalplumbingsupply.net",
+            latitude: 40.633965,
+            longitude: -74.123638,
+            notes: nil
+        ),
+        Vendor(
+            name: "Gil Meyerowitz, Inc.",
+            address: "70-22 Cypress Hills Street, Ridgewood, NY",
+            phone: "718-821-6200",
+            website: "meyerowitzsupply.com",
+            latitude: 40.702333,
+            longitude: -73.893958,
+            notes: nil
+        ),
+        Vendor(
+            name: "H.C. Oswald Supply Co., Inc.",
+            address: "725 Whittier Street, Bronx, NY",
+            phone: "718-620-1400",
+            website: "oswaldsupply.com",
+            latitude: 40.815506,
+            longitude: -73.884001,
+            notes: nil
+        ),
+        Vendor(
+            name: "Heating & Burner Supply",
+            address: "479 Walton Avenue, Bronx, NY",
+            phone: "718-665-0006",
+            website: "heatingandburner.com",
+            latitude: 40.817883,
+            longitude: -73.928705,
+            notes: nil
         )
     ]
 }
